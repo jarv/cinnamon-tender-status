@@ -7,7 +7,7 @@
 * Number of issues pending (issues that have not been responded to by support staff)
 * Desktop notification for new issues
 
-![Alt text](https://github.com/jarv/cinnamon-tender-status/blob/master/screenshot.png)
+![Alt text](https://raw.github.com/jarv/cinnamon-tender-status/master/screenshot.png)
 
 ## Installation
 
@@ -19,9 +19,13 @@
 
 ## Configuration
 
-* Edit tendercfg.js to add your API key and URLs
+* `tenderchks` will be displayed on the status bar
+* `notify_label` maps to an entry in `tenderchks` for desktop notifications
+* change `click_url` to point to your dashboard
+* set the `api_key`
 
-```
+
+```javascript
 var tenderchks = [
   {
     'label': 'open',
@@ -47,4 +51,3 @@ var notify_label = 'open';
 var click_url = 'http://help.edge.edx.org/dashboard';
 
 ```
-
