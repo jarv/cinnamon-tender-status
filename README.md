@@ -38,7 +38,7 @@ var tenderchks = [
 
 ];
 var api_key= '***';
-// 5 sec
+// 10 sec
 var poll_interval = 10000;
 
 // will only send a desktop notification for this
