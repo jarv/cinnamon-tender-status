@@ -2,6 +2,5 @@
 "uuid": "tender-status@jarv.org",
 "name": "Tender Status",
 "description": "Number of outstanding tickets in a Tender queue",
-"icon": "",
 "version": "0.1"
 }
